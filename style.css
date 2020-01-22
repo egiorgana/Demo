@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+canvas{
+    background-image: url(./images/bg5.jpeg);
+}
