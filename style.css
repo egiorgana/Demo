@@ -1,9 +1,24 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+	margin: 0;
+    background-image: url('./images/bg.png');
 }
 
 canvas{
-    background-image: url(./images/bg5.jpeg);
+	border: 4px white solid; 
+	background-image: url('./images/background.png');
+	background-size: contain;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
